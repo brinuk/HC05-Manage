@@ -20,8 +20,12 @@ Easily manage the setup and binding of Version 2 or version 3 Bluetooth modules
   HC05.proceed is a flag set by all "set" commands, can be used to monitor the result.
  
   Connect HC05 VCC to Arduino pin 12
+  
   Connect HC05 EN to Arduino pin 11 through a voltage divider. 
+  
   Connect the HC05 GND to GND
+  
   Connect the HC-05 TX to Arduino pin 2 RX. 
+  
   Connect the HC-05 RX to Arduino pin 3 TX through a voltage divider.
   
