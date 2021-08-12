@@ -7,9 +7,9 @@ Easily manage the setup and binding of Version 2 or version 3 Bluetooth modules
   
   List of available BT commands
   
-  begin(); setBaudRate(String rate); getBaudRate(); information();setToCommandMode(); void locate(); sendAtCommand(String command);readHC05();
+  begin(); setBaudRate(String rate); getBaudRate(); information(); setToCommandMode(); void locate(); sendAtCommand(String command);readHC05();
   linkHC05Ver2(); linkHC05Ver3(); readReply()reads HC05 reply and sets proceed flag; proceed;// flag for proceeding to next step
-  getVersion(); getPassword(); getRole(); getMode(); getMacAddress(); setToDefault(); setToMaster();setRemotePassword(String PW);reset();
+  getVersion(); getPassword(); getRole(); getMode(); getMacAddress(); setToDefault(); setToMaster(); setRemotePassword(String PW);reset();
   initialize(); forgetConnections(); pair(String macAddress); bind(String macAddress); link(String macAddress); setInquiryMode(); getStateOfCommandMode();
   getNameOfRemoteBT(); setAcceptFixedAddress(); NBDelay(unsigned long delayTime) non blocking delay;
   
