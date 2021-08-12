@@ -1,0 +1,67 @@
+#######################################
+# Syntax Coloring Map for HC05Manage
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+phrase	KEYWORD1
+password		KEYWORD1
+macAddress	KEYWORD1
+proceed	KEYWORD1
+reply	KEYWORD1
+c	KEYWORD1
+startTime	KEYWORD1
+delayTime	KEYWORD1
+baudRate	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setBaudRate	KEYWORD2
+information	KEYWORD2
+setToCommandMode	KEYWORD2
+locate	KEYWORD2
+sendAtCommand	KEYWORD2
+readHC05		KEYWORD2
+writeString	KEYWORD2
+linkHC05Ver2	KEYWORD2
+HC05Manage	KEYWORD2
+setBaudRate	KEYWORD2
+getBaudRate	KEYWORD2
+getInformation	KEYWORD2
+linkHC05Ver3	KEYWORD2
+readReply		KEYWORD2
+getVersion	KEYWORD2
+getMacAddress	KEYWORD2
+getPassword	KEYWORD2
+getRole	KEYWORD2
+getMode	KEYWORD2
+setToDefault	KEYWORD2
+setToMaster	KEYWORD2
+setRemotePassword	KEYWORD2
+reset	KEYWORD2
+initialize	KEYWORD2
+forgetConnections	KEYWORD2
+pair	KEYWORD2
+bind	KEYWORD2
+link	KEYWORD2
+setInquiryMode	KEYWORD2
+getStateOfCommandMode	KEYWORD2
+getNameOfRemoteBT	KEYWORD2
+setAcceptAllDevices	KEYWORD2
+NBDelay	KEYWORD2
+setAcceptFixedAddress	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+HC05PowerPin
+HC05AtPin
+
+HC05AtPin	LITERAL1
+HC05PowerPin	LITERAL1
