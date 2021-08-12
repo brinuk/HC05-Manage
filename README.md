@@ -14,6 +14,7 @@ Easily manage the setup and binding of Version 2 or version 3 Bluetooth modules
   getNameOfRemoteBT(); setAcceptFixedAddress(); NBDelay(unsigned long delayTime) non blocking delay;
   
   See example - Try HC05.linkHC05Ver2() first and if problems use HC05.linkHC05Ver3()
+  
   HC05.linkHC05Ver3() will switch to the second command mode on version 3 BT modules.
 
   HC05.proceed is a flag set by all "set" commands, can be used to monitor the result.
